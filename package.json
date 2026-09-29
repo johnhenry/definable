@@ -1,0 +1,35 @@
+{
+  "name": "@johnhenry/definable",
+  "version": "0.0.0",
+  "description": "Load or define custom elements declaratively -- from a URL, from inline HTML content, or as a plain global polyfill.",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*"
+  },
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "node scripts/check-syntax.mjs"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "web-components",
+    "custom-elements",
+    "define"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhenry/definable.git"
+  },
+  "homepage": "https://opensource.johnhenry.me/definable/",
+  "engines": {
+    "node": ">=26.0.0"
+  },
+  "dependencies": {
+    "@johnhenry/domable": "^0.0.1"
+  }
+}
