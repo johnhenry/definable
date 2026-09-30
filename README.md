@@ -6,6 +6,13 @@
 
 Full documentation: [opensource.johnhenry.me/definable](https://opensource.johnhenry.me/definable/)
 
+> **Archived.** This package is folded back into
+> [`@johnhenry/domkit`](https://github.com/johnhenry/domkit) as of domkit
+> `0.0.4` — import `@johnhenry/domkit/definable/<module>/...` instead. The
+> unscoped npm package `@johnhenry/definable` is deprecated (not removed)
+> and will keep working at its last published version; this repo is
+> archived (read-only, not deleted).
+
 > **Provenance:** extracted from [`johnhenry/lib`](https://github.com/johnhenry/lib)'s
 > `js/` directory. Briefly part of [`@johnhenry/domkit`](https://github.com/johnhenry/domkit)
 > (a toolkit of ~40 independent DOM/HTML-component modules), then split out
